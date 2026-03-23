@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explore — Discover New Places</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* General site background */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #fdfcfb, #e2d1c3);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation bar */
+    nav {
+      background-color: #2c3e50;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: #ecf0f1;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f39c12;
+      text-shadow: 0 0 5px #f39c12;
+    }
+
+    /* Section headers */
+    h1, h2 {
+      font-family: 'Georgia', serif;
+      color: #2c3e50;
+      border-bottom: 3px solid #f39c12;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    /* Decorative cards for content */
+    .section-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+      transition: transform 0.3s ease;
+    }
+    .section-card:hover {
+      transform: scale(1.02);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 1em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-background scroll-smooth">
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Explore</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="culture.html">Culture</a></li>
+          <li><a href="wildlife.html">Wildlife</a></li>
+          <li><a href="explore.html" aria-current="page">Explore</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1>Explore</h1>
+      <p>Discover amazing places, cultures, and experiences around the world.</p>
+
+      <section class="section">
+        <h2>🌍 Fun Facts About Papua New Guinea</h2>
+
+        <h3>🏞 Destinations</h3>
+        <ul>
+          <li>PNG is home to over 600 islands, each with its own charm—from volcanic landscapes to pristine coral reefs.</li>
+          <li>The Kokoda Track is a world-famous trekking route, rich in WWII history and jungle adventure.</li>
+          <li>The Sepik River is one of the longest rivers in the South Pacific, lined with villages known for their intricate wood carvings.</li>
+        </ul>
+
+        <h3>🎭 Culture</h3>
+        <ul>
+          <li>PNG has over 850 languages, making it the most linguistically diverse country in the world.</li>
+          <li>The Mount Hagen Cultural Show brings together tribes from across the highlands, showcasing traditional dances, costumes, and rituals.</li>
+          <li>Shells were once used as currency in some regions, highlighting the deep connection between culture and nature.</li>
+        </ul>
+
+        <h3>🦜 Wildlife</h3>
+        <ul>
+          <li>PNG is the kingdom of the birds-of-paradise, with dazzling plumage and courtship dances found nowhere else.</li>
+          <li>The tree kangaroo is a rare marsupial that lives in the cloud forests of the highlands.</li>
+          <li>Its waters host some of the world’s best diving spots, with vibrant coral reefs, WWII wrecks, and marine life like manta rays and turtles.</li>
+        </ul>
+      </section>
+
+      <div class=
+        <article class="card">
+          <img src="C:\Users\260101\Desktop\nia\images\OIP (2).webp" width="700px" height="700px">
+          <div class="card-body">
+            <h3>Adventure Awaits</h3>
+            <p>Embark on thrilling journeys and create unforgettable memories.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="C:\Users\260101\Desktop\nia\images\OIP (3).webp" width="700px" height="700px"
+          <div class="card-body">
+            <h3>Cultural Immersion</h3>
+            <p>Dive into diverse traditions, foods, and histories.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="C:\Users\260101\Desktop\nia\images\shutterstock_1945491385.webp" width="700px" height="700px"
+          <div class="card-body">
+            <h3>Natural Wonders</h3>
+            <p>Explore breathtaking landscapes and wildlife.</p>
+          </div>
+        </article>
+      </div>
+
+      <p><a class="btn" href="index.html">Back to Home</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Explore.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year')?.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
